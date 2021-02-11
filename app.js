@@ -47,7 +47,7 @@ function addNewNote(text = '') {
         if (navigator.share) {
             navigator.share({
                 title: `${title}`,
-                url: `${url}`
+                url: `${url, text}`
             }).then(() => {
                 console.log('Thanks for sharing');
             })
