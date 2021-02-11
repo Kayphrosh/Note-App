@@ -104,6 +104,7 @@ body {
 }
 .note-header button {
     margin: 0px 10px 0 20px;
+    background-color: none;
     outline: none;
     border: none;
     font-size: 25px;
